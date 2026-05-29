@@ -1,36 +1,59 @@
-/**
- * BIRTHDAY SCRIPT: JIENNET VERARA AYOMI v19.0
- * Status: Compiling Happiness...
- */
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD Jeinnet Verara Ayomi</title>
+    <style>
+        body {
+            background-color: #fdf2f8;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .card {
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 40px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(216, 27, 96, 0.2);
+            border: 5px solid #ffb6c1;
+        }
+        .bunga { font-size: 50px; }
+        h1 { color: #d81b60; }
+        .nama { font-size: 1.8em; font-weight: bold; color: #ad1457; margin: 15px 0; }
+        .photo-frame {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border-radius: 50%;
+            border: 5px solid #d81b60;
+            overflow: hidden;
+        }
+        .photo-frame img { width: 100%; height: 100%; object-fit: cover; }
+        .pesan { line-height: 1.7; color: #4e342e; font-size: 1.1em; text-align: justify; }
+        .icon-set { font-size: 60px; margin-top: 20px; }
+    </style>
+</head>
+<body>
 
-class JeinnetSystem {
-  final String nama = "Jeinnet Verara Ayomi";
-  final int usia = 19;
-  final String jurusan = "Sistem Informasi";
-
-  void compileLife() {
-    print("--- Memulai Proses Kompilasi Usia $usia ---");
+<div class="card">
+    <div class="bunga">🌹✨🌸</div>
+    <h1>Happy 19th Birthday!</h1>
+    <div class="nama">Jeinnet Verara Ayomi</div>
     
-    List<String> wishes = [
-      "Kesehatan: [OPTIMIZED]",
-      "Kebahagiaan: [MAXIMIZED]",
-      "Skill Coding: [UPGRADED]",
-      "Masa Depan: [SUCCESS_READY]"
-    ];
+    <div class="photo-frame">
+        <img src="foto-jeinnet.jpg" alt="Jeinnet">
+    </div>
 
-    for (var wish in wishes) {
-      print("Processing... $wish");
-    }
+    <p class="pesan">
+        Selamat ulang tahun yang ke-19! Sebagai teman seperjuangan di jurusan Sistem Informasi, semoga Jeinnet selalu diberikan kesehatan, kebahagiaan, dan kemudahan dalam setiap langkah. Teruslah semangat menghadapi tugas, <i>deadline</i>, <i>coding</i>, dan tantangan kampus. Terima kasih sudah menjadi teman yang luar biasa, baik, dan selalu membawa energi positif. Semoga tahun ini membawa banyak pencapaian baru dan kesuksesan yang membanggakan! 💖
+    </p>
 
-    print("\n[INFO] Selamat Ulang Tahun, Jeinnet!");
-    print("[INFO] Error 'Gagal Move On' tidak ditemukan.");
-    print("[INFO] Sukses 'Cita-cita' berhasil dijalankan.");
-  }
-}
+    <div class="icon-set">💻 🎂 🌹</div>
+</div>
 
-void main() {
-  var bday = JeinnetSystem();
-  bday.compileLife();
-  
-  print("\nSemangat Jeinnet! Semoga IPK-nya melambung tinggi! 🚀");
-}
+</body>
+</html>
