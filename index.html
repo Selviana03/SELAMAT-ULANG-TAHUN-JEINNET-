@@ -3,57 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HBD Jeinnet Verara Ayomi</title>
+    <title>Happy Birthday Jeinnet!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #fdf2f8;
-            font-family: 'Segoe UI', sans-serif;
+            background: radial-gradient(circle, #ffe4e6, #fce7f3);
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
-            padding: 20px;
-            text-align: center;
+            overflow-x: hidden;
         }
         .card {
-            background: white;
-            max-width: 600px;
-            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            max-width: 500px;
             padding: 40px;
-            border-radius: 30px;
-            box-shadow: 0 10px 30px rgba(216, 27, 96, 0.2);
-            border: 5px solid #ffb6c1;
+            border-radius: 50px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+            border: 2px solid white;
         }
-        .bunga { font-size: 50px; }
-        h1 { color: #d81b60; }
-        .nama { font-size: 1.8em; font-weight: bold; color: #ad1457; margin: 15px 0; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        
         .photo-frame {
-            width: 200px;
-            height: 200px;
+            width: 180px; height: 180px;
             margin: 20px auto;
             border-radius: 50%;
-            border: 5px solid #d81b60;
+            border: 6px solid #fb7185;
             overflow: hidden;
+            transition: transform 0.3s;
         }
+        .photo-frame:hover { transform: scale(1.1); }
         .photo-frame img { width: 100%; height: 100%; object-fit: cover; }
-        .pesan { line-height: 1.7; color: #4e342e; font-size: 1.1em; text-align: justify; }
-        .icon-set { font-size: 60px; margin-top: 20px; }
+        
+        h1 { font-family: 'Dancing Script', cursive; color: #e11d48; font-size: 3em; }
+        .nama { font-weight: bold; color: #9f1239; font-size: 1.5em; }
+        .pesan { font-style: italic; color: #4c0519; margin: 20px 0; line-height: 1.8; }
     </style>
 </head>
 <body>
 
-<div class="card">
-    <div class="bunga">🌹✨🌸</div>
-    <h1>Happy 19th Birthday!</h1>
-    <div class="nama">Jeinnet Verara Ayomi</div>
-    
-    <div class="photo-frame">
-        <img src="photo-692d7332-eca0-484c-9a97-78b66592703d-original.jpg" alt="Jeinnet">
+    <div class="card">
+        <h1>Happy Birthday!</h1>
+        <div class="photo-frame">
+            <img src="photo-692d7332-eca0-484c-9a97-78b66592703d-original.jpg" alt="Jeinnet">
+        </div>
+        <div class="nama">Jeinnet Verara Ayomi</div>
+        <p class="pesan">
+            "Selamat usia ke-19! Semoga perjalananmu di Sistem Informasi penuh dengan pencapaian gemilang. Tetaplah menjadi sosok yang inspiratif, kuat, dan penuh kebahagiaan. Dunia sedang menunggu karya hebatmu!"
+        </p>
+        <div style="font-size: 40px;">🎂💻🌹✨</div>
     </div>
-
-    <p class="pesan">
-        Selamat ulang tahun yang ke-19! Sebagai teman seperjuangan di jurusan Sistem Informasi, semoga Jeinnet selalu diberikan kesehatan, kebahagiaan, dan kemudahan dalam setiap langkah. Teruslah semangat menghadapi tugas, <i>deadline</i>, <i>coding</i>, dan tantangan kampus. Terima kasih sudah menjadi teman yang luar biasa, baik, dan selalu membawa energi positif. Semoga tahun ini membawa banyak pencapaian baru dan kesuksesan yang membanggakan! 💖
-    </p>
-
-    <div class="icon-set">💻 🎂 🌹</div>
-</div>
 
 </body>
 </html>
